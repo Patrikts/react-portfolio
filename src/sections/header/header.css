@@ -59,13 +59,15 @@ header {
     transform: translateX(-0.5rem);
 }
 
+
 /* MEDIA QUERIES (tablets) */
-@media screen  and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     header {
         margin-top: 0;
         height: 100vh;
     }
 }
+
 
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 600px) {
@@ -75,7 +77,7 @@ header {
         max-width: 60%;
         max-height: 35vh;
     }
-    
+
     .header__container p {
         width: 100%;
     }
@@ -87,5 +89,4 @@ header {
     .header__socials {
         display: none;
     }
-
 }
