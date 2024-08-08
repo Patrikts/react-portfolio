@@ -15,8 +15,8 @@ const Header = () => {
           Send me the details of your project for a modern, mobile responsive, highly performant website today!
         </p>
         <div className='header__cta'>
-          <a href="#contact">Let's Talk</a>
-          <a href="#portfolio">My Work</a>
+          <a href="#contact" className='btn primary'>Let's Talk</a>
+          <a href="#portfolio" className='btn light'>My Work</a>
         </div>
       <div className='header__socials'>
         {
