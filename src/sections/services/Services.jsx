@@ -1,3 +1,4 @@
+import Card from '../../components/Card'
 import data from './data'
 import './services.css'
 
