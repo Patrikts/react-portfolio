@@ -9,7 +9,6 @@ const Portfolio = () => {
 
   const categories = data.map(item => item.category);
   const uniqueCategories = ["all", ...new Set(categories)];
-  console.log(uniqueCategories);
 
   return (
     <section id="portfolio">
