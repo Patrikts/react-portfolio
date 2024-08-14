@@ -6,7 +6,7 @@ const ProjectsCategories = (categories) => {
     <div className='portfolio__categories'>
         {
             categories.map(category => (
-                <CategoryButtom key={category} category={category}/>
+                <CategoryButtom key={category} category={category} className={`btn cat__btn white`}/>
             ))
         }
     </div>

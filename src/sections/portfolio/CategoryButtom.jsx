@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CategoryButtom = () => {
+const CategoryButtom = ({category, className}) => {
   return (
-    <div>CategoryButtom</div>
+    <button className={className}>{category}</button>
   )
 }
 
