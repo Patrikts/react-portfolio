@@ -10,6 +10,7 @@ import './styles.css';
 // import required modules
 import { Pagination } from 'swiper/modules';
 
+import testimonials from './data'
 import './testimonials.css'
 
 
