@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CategoryButtom = ({category, className}) => {
+const CategoryButtom = ({category, className, onChangeCategory}) => {
   return (
-    <button className={className}>{category}</button>
+    <button className={className} onClick={() => onChangeCategory(category)}>{category}</button>
   )
 }
 
