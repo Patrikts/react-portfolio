@@ -34,7 +34,7 @@ const Testimonials = () => {
             >
               {
                 testimonials.map(testimonial => (
-                  <SwiperSlide key={testimonial.id}>
+                  <SwiperSlide key={testimonial.id} testimonial={testimonial}>
                     <Testimonial/>
                   </SwiperSlide>
                 ))
