@@ -10,10 +10,10 @@ const FAQ = ({faq}) => {
         <div>
             <h5 lassname="faq__question">{faq.question}</h5>
             <button className='faq__icon'>
-                <AiOutlinePlus/>
+                {<AiOutlinePlus/>}
             </button>
         </div>
-        <p className="faq__answer">{faq.answer}</p>
+        {showAnswer && <p className="faq__answer">{faq.answer}</p>}
     </Card>
   )
 }
