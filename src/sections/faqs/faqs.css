@@ -30,3 +30,17 @@
 .faq__answer {
     margin-top: 1rem;
 }
+
+/* MEDIA QUERIES (tablets) */
+@media screen and (max-width: 1024px) {
+    .faqs__container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* MEDIA QUERIES (phones) */
+@media screen and (max-width: 600px) {
+    .faqs__container {
+        gap: 1rem;
+    }
+}
