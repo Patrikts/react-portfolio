@@ -10,7 +10,7 @@ const FAQ = ({faq}) => {
                 <AiOutlinePlus/>
             </button>
         </div>
-        <p>{faq.answer}</p>
+        <p className="faq__answer">{faq.answer}</p>
     </Card>
   )
 }
