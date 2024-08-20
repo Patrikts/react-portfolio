@@ -9,3 +9,24 @@
     cursor: pointer;
     background: var(--color-white);
 }
+
+.faq > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.faq h5 {
+    line-height: 1.4;
+}
+
+.faq__icon {
+    font-size: 1.2rem;
+    color: var(--color-black);
+    background: transparent;
+}
+
+.faq__answer {
+    margin-top: 1rem;
+}
