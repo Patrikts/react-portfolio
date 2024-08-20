@@ -2,6 +2,9 @@ import Card from "../../components/Card"
 import {AiOutlinePlus} from 'react-icons/ai'
 
 const FAQ = ({faq}) => {
+    const [showAnswer, setShowAnswer] = useState(false);
+
+
   return (
     <Card classname="faq">
         <div>
