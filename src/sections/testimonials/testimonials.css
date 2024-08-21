@@ -5,9 +5,7 @@
 .swiper {
     height: fit-content;
     padding-bottom: 12rem;
-    /* this paddint top is to give 
-    space for micro interaction on
-    hover of swiper slide */
+    /* this paddint top is to give space for micro interaction on hover of swiper slide */
     padding-top: 1rem;
 }
 
@@ -25,18 +23,16 @@
 .testimonial__client-avatar {
     width: 2.5rem;
     aspect-ratio: 1/1;
-    border-radius: var
-    (--border-radius-2);
+    border-radius: var(--border-radius-2);
     overflow: hidden;
-    transition: 
-    var(--transition);
+    transition: var(--transition);
 }
 
 .swiper-pagination {
     margin-bottom: 8rem;
 }
 
+
 .swiper-pagination-bullet {
-    background: var
-    (--color-primary);
+    background: var(--color-primary);
 }
