@@ -1,9 +1,7 @@
-.footer {
-    background: var
-    (--color-primary);
+footer {
+    background: var(--color-primary);
     padding-top: 8rem;
-    box-shadow: 0 -1rem 1.5rem
-    hsla(var(--primary-hue), 68%, 42%, 20%);
+    box-shadow: 0 -1rem 1.5rem hsla(var(--primary-hue), 68%, 42%, 20%);
     transition: var(--transition);
 }
 
@@ -19,13 +17,10 @@ footer .nav__menu {
 }
 
 .footer__socials a {
-    background: var
-    (--color-black);
-    color: var
-    (--color-white);
+    background: var(--color-black);
+    color: var(--color-white);
     padding: 0.6rem;
-    border-radius: var
-    (--border-radius-3);
+    border-radius: var(--border-radius-3);
 }
 
 .footer__socials a:hover {

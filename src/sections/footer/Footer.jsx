@@ -1,4 +1,4 @@
-import { links, socials } from './data'
+import {links, socials} from './data'
 import './footer.css'
 
 const Footer = () => {
@@ -12,15 +12,14 @@ const Footer = () => {
         </ul>
         <div className="footer__socials">
           {
-            socials.map(social => <a key={social.id} href={social.link} target="_blank"
-            rel='noopener noreferrer'>{social.icon}</a>)
+            socials.map(social => <a key={social.id} href={social.link} target="_blank" rel="noopener noreferrer">{social.icon}</a>)
           }
         </div>
       </div>
       <div className="footer__copyright">
         <small>2022 EGATOR TUTORIALS &copy; All Rights Reserved</small>
       </div>
-      </footer>
+    </footer>
   )
 }
 
