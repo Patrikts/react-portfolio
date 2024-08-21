@@ -16,3 +16,10 @@
     border: 2px solid transparent;
     border-radius: var(--border-radius-1);
 }
+
+.contact__container a:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    transform: translateY(-0.5rem);
+}
