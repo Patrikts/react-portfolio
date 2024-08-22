@@ -15,5 +15,4 @@ export const ModalProvider = ({children}) => {
     }
 
     return <ModalContext.Provider value={{showModal, showModalHandler, closeModalHandler}}>{children}</ModalContext.Provider>
-
 }
