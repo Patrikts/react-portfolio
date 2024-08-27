@@ -24,3 +24,10 @@
 .theme__primary-wrapper {
     margin: 3rem 0;
 }
+
+.theme__primary-colors {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
