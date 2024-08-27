@@ -20,3 +20,7 @@
     width: 80%;
     margin-inline: auto;
 }
+
+.theme__primary-wrapper {
+    margin: 3rem 0;
+}
