@@ -3,4 +3,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 200;
+    text-align: center;
+    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.2);
+    padding: 3rem;
 }
