@@ -29,5 +29,43 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 1rem;
+}
+
+.theme__primary-colors button {
+    width: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.theme__primary-colors 
+button:nth-child(1) {
+    background: hsl(270, 70%, 46%);
+}
+
+.theme__primary-colors 
+button:nth-child(2) {
+    background: hsl(110, 70%, 46%);
+}
+
+.theme__primary-colors 
+button:nth-child(3) {
+    background: hsl(240, 70%, 46%);
+}
+
+.theme__primary-colors 
+button:nth-child(4) {
+    background: hsl(325, 70%, 46%);
+}
+
+.theme__primary-colors 
+button:nth-child(5) {
+    background: hsl(0, 70%, 46%);
+}
+
+.theme__primary-colors 
+button:nth-child(6) {
+    background: hsl(52, 70%, 46%);
 }
