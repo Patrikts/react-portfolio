@@ -78,3 +78,7 @@
     border-radius: var(--border-radius-3);
     cursor: pointer;
 }
+
+.theme__backgroud-colors .bg-2 {
+    background: #111;
+}
