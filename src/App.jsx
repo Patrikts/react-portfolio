@@ -36,6 +36,8 @@ const App = () => {
       } else {
         hideFloatingNavHandler();
       }
+
+      setShowFloatingNav(mainRef?.current?.getBoundingClientRect().y);
   }
 
   console.log(mainRef.current.getBoundingClientRect())
