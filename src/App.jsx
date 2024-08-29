@@ -13,8 +13,32 @@ import { useThemeContext } from './context/theme-context';
 import { useRef, useState, useEffect } from 'react';
 
 const App = () => {
-  const mainRef = useRef();
   const { themeState } = useThemeContext();
+
+  const mainRef = useRef();
+  const [showFloatingNav, setShowFloatingNav] = useState(true);
+  const [siteYPosition, setsiteYPosition] = useState(0)
+
+  const showFloatingNavHandler = () => {
+    setShowFloatingNav(true);
+  }
+
+  const hideFloatingNavHandler = () => {
+    setShowFloatingNav(false);
+  }
+
+  // check if floating nav should be shown or hidden
+  const floatingNavToggleHandler = () => {
+    // check if we scrolled up or down at least 20px
+    if(siteYPosition < (mainRef?.current?.getBoundingClientRect().y - 20) || siteYPosition > (mainRef?.
+      current?.getBoundingClientRect().y + 20)) {
+        showFloatingNavHandler();
+      } else {
+        hideFloatingNavHandler();
+      }
+  }
+
+  console.log(mainRef.current.getBoundingClientRect())
 
   return (
     <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
