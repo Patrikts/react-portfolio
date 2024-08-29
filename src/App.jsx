@@ -37,14 +37,15 @@ const App = () => {
         hideFloatingNavHandler();
       }
 
-      setShowFloatingNav(mainRef?.current?.getBoundingClientRect().y);
+      setsiteYPosition(mainRef?.current?.getBoundingClientRect().y);
   }
 
   useEffect(() => {
-    setInterval(floatingNavToggleHandler, 2000);
-  }, [siteYPosition])
+    const checkYPosition = setInterval(floatingNavToggleHandler, 2000);
 
-  console.log(mainRef.current.getBoundingClientRect())
+    // cleanup function
+    return () => clearInterval(checkYPosition);
+  }, [siteYPosition])
 
   return (
     <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
@@ -58,7 +59,7 @@ const App = () => {
         <Contact/>
         <Footer/>
         <Theme/>
-        {/* <FloatingNav/> */}
+        {showFloatingNav && <FloatingNav/>}
     </main>
   )
 }
