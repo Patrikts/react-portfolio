@@ -1,8 +1,16 @@
-import { Children } from "react";
 import { createContext, useContext, useReducer, useEffect } from "react";
+import themeReducer from "./themeReducer";
 
 export const ThemeContext = createContext();
 
-export const ThemeProvider = () => {
-    return <ThemeContext.Provider>{Children}</ThemeContext.Provider>
+const initialThemeState = {primary: 'color-1', background: 'bg-1'}
+
+export const ThemeProvider = ({children}) => {
+    const [themeReducer, dispatchTheme] = useReducer(themeReducer, initialThemeState);
+
+    const themeHandler = (buttonClassName) => {
+        dispatchTheme({type: buttonClassName})
+    }
+
+    return <ThemeContext.Provider>{children}</ThemeContext.Provider>
 }
