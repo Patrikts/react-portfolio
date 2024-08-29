@@ -40,6 +40,10 @@ const App = () => {
       setShowFloatingNav(mainRef?.current?.getBoundingClientRect().y);
   }
 
+  useEffect(() => {
+    setInterval(floatingNavToggleHandler, 2000);
+  }, [siteYPosition])
+
   console.log(mainRef.current.getBoundingClientRect())
 
   return (
