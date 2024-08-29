@@ -1,6 +1,5 @@
 import { useThemeContext } from "../context/theme-context"
 
-
 const PrimaryColor = ({className}) => {
   const {themeHandler} = useThemeContext();
   return (
