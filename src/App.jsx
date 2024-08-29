@@ -10,11 +10,14 @@ import Footer from './sections/footer/Footer';
 import FloatingNav from './sections/floating-nav/FloatingNav';
 import Theme from './theme/Theme';
 import { useThemeContext } from './context/theme-context';
+import { useRef, useState, useEffect } from 'react';
 
 const App = () => {
+  const mainRef = useRef();
   const { themeState } = useThemeContext();
+
   return (
-    <main className={`${themeState.primary} ${themeState.background}`}>
+    <main className={`${themeState.primary} ${themeState.background}`} ref={mainRef}>
         <Navbar/>
         <Header/>
         <About/>
