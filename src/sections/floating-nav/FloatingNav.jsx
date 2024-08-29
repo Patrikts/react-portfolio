@@ -1,8 +1,12 @@
+import data from './data'
+import Scrollspy from 'react-scrollspy'
 import './floating-nav.css'
 
 const FloatingNav = () => {
   return (
-    <section id="floating__nav"></section>
+    <ul id='floating__nav'>
+
+    </ul>
   )
 }
 
