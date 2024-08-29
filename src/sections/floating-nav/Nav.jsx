@@ -1,9 +1,8 @@
-import React from 'react'
 
-const Nav = () => {
+const Nav = ({className, item}) => {
   return (
-    <div>Nav</div>
-  )
+        <li className={className}><a href={item.link}>{item.icon}</a></li>
+    )
 }
 
 export default Nav
