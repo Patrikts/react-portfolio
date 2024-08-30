@@ -29,16 +29,14 @@ const About = () => {
 
             <p>
               Building projects my clients love have always been my passion.
-              Being in the web development industry for over 3 years and serving 
-              more than 70 happy clients woldwide, I'm always motivated to do more!
             </p>
             <p>
-              Hi, mi name is Hajia Bintu from Accra, Ghana. I'm a full-stack web
-              developer with a Bachelors degree in Computer Science. My top
-              priority is to get your business online the right way, giving you 
-              industry-standard design and all the functionality you need to 
-              operate Smoothly online. Get in touch today with the details of
-              your project let's get started! Check out my resume below!
+            Hi, my name is Patrik Teixeira from Brasil. I'm a full-stack web developer, 
+            Bachelors degree in Software Engineer student. My top priority is to get your 
+            business online the right way, giving you industry-standard design 
+            and all the functionality you need to operate smoothly online. 
+            Get in touch today with the details of your project let's get started! 
+            Check out my resume below!
             </p>
               <a href={CV} download className='btn primary'>Download CV <HiDownload/></a>
             </div>
