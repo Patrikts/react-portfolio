@@ -16,7 +16,7 @@ const data = [
         title: "Application of a Stock System (Fullstack)",
         desc: "Fullstack application of a stock system developed using back-end web development material from the Uninter Software Engineering course. The application was developed using Spring Boot and Bootstrap.",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/Patrikts/sistema-de-estoque-uninter-spring-boot'
     },
     {
         id: 2,
@@ -24,8 +24,8 @@ const data = [
         image: Image2,
         title: "Barber Shop Alura (Frontend)",
         desc: "Barber Shop Alura website project developed during Alura's beginner programming training",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://alurabarber1.netlify.app/',
+        github: 'https://github.com/Patrikts/Barbearia-Alura'
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ const data = [
         title: "TinDog (Frontend)",
         desc: "TinDog Front-End created in the Bootstrap classes of the course The Complete Web Development by professor Dr Angela Yu",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/Patrikts/tindog-project'
     },
     {
         id: 4,
@@ -60,8 +60,7 @@ const data = [
         image: Image6,
         title: "Contact Calendar Application (Fullstack)",
         desc: "Contact calendar application, using Angular Material in the Front-End and Spring Boot in the Back-End.",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/Patrikts/Aplica-ao-Agenda-Angular-SpringBoot'
     },
     {
         id: 7,
@@ -79,7 +78,7 @@ const data = [
         title: "Chess game made in Java (Backend)",
         desc: "Chess game made in Java in the Java and Object Orientation course by professor Nélio Alves",
         demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        github: 'https://github.com/Patrikts/jogo-de-xadrez-java'
     },
     {
         id: 9,
