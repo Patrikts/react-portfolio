@@ -11,9 +11,9 @@ import Image9 from '../../assets/project9.jpg'
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'fullstack',
         image: Image1,
-        title: "Application of a stock system",
+        title: "Application of a Stock System (Fullstack)",
         desc: "Fullstack application of a stock system developed using back-end web development material from the Uninter Software Engineering course. The application was developed using Spring Boot and Bootstrap.",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
@@ -22,8 +22,8 @@ const data = [
         id: 2,
         category: 'frontend',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Barber Shop Alura (Frontend)",
+        desc: "Barber Shop Alura website project developed during Alura's beginner programming training",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
@@ -31,35 +31,35 @@ const data = [
         id: 3,
         category: 'frontend',
         image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "TinDog (Frontend)",
+        desc: "TinDog Front-End created in the Bootstrap classes of the course The Complete Web Development by professor Dr Angela Yu",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'frontend',
         image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Medium Fidelity Prototype of a Mobile Application for Pet Adoption (UIUX)",
+        desc: "Medium fidelity prototype of a mobile application for pet adoption, subject fundamentals of Systems Design course Software Engineering Uninter",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
     {
         id: 5,
-        category: 'uiux',
+        category: 'frontend',
         image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
+        title: "Prototype of a Mobile Application for a Property Rental Company (UIUX)",
+        desc: "Prototype of a mobile application for a property rental company practical activity in the subject fundamentals of systems design - Uninte Software Engineering",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
     {
         id: 6,
-        category: 'frontend',
+        category: 'fullstack',
         image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Contact Calendar Application (Fullstack)",
+        desc: "Contact calendar application, using Angular Material in the Front-End and Spring Boot in the Back-End.",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
@@ -76,8 +76,8 @@ const data = [
         id: 8,
         category: 'backend',
         image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Chess game made in Java (Backend)",
+        desc: "Chess game made in Java in the Java and Object Orientation course by professor Nélio Alves",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
