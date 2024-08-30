@@ -13,8 +13,8 @@ const data = [
         id: 1,
         category: 'uiux',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        title: "Application of a stock system",
+        desc: "Fullstack application of a stock system developed using back-end web development material from the Uninter Software Engineering course. The application was developed using Spring Boot and Bootstrap.",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
