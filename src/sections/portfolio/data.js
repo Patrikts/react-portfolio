@@ -4,7 +4,7 @@ import Image3 from '../../assets/project3.jpg'
 import Image4 from '../../assets/project4.jpg'
 import Image5 from '../../assets/project5.jpg'
 import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
+import Image7 from '../../assets/project7.png'
 import Image8 from '../../assets/project8.jpg'
 import Image9 from '../../assets/project9.jpg'
 
@@ -15,8 +15,8 @@ const data = [
         image: Image1,
         title: "Application of a Stock System (Fullstack)",
         desc: "Fullstack application of a stock system developed using back-end web development material from the Uninter Software Engineering course. The application was developed using Spring Boot and Bootstrap.",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://github.com/Patrikts/sistema-de-estoque-uninter-spring-boot',
+        github: 'https://github.com/Patrikts/sistema-de-estoque-uninter-spring-boot'
     },
     {
         id: 2,
@@ -24,8 +24,8 @@ const data = [
         image: Image2,
         title: "Barber Shop Alura (Frontend)",
         desc: "Barber Shop Alura website project developed during Alura's beginner programming training",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://alurabarber1.netlify.app/',
+        github: 'https://github.com/Patrikts/Barbearia-Alura'
     },
     {
         id: 3,
@@ -33,8 +33,8 @@ const data = [
         image: Image3,
         title: "TinDog (Frontend)",
         desc: "TinDog Front-End created in the Bootstrap classes of the course The Complete Web Development by professor Dr Angela Yu",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://github.com/Patrikts/tindog-project',
+        github: 'https://github.com/Patrikts/tindog-project'
     },
     {
         id: 4,
@@ -42,8 +42,8 @@ const data = [
         image: Image4,
         title: "Medium Fidelity Prototype of a Mobile Application for Pet Adoption (UIUX)",
         desc: "Medium fidelity prototype of a mobile application for pet adoption, subject fundamentals of Systems Design course Software Engineering Uninter",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://github.com/Patrikts/Prototipo-de-media-fidelidade-aplicativo-mobile-de-adocao-de-pet-figma',
+        github: 'https://github.com/Patrikts/Prototipo-de-media-fidelidade-aplicativo-mobile-de-adocao-de-pet-figma'
     },
     {
         id: 5,
@@ -60,17 +60,17 @@ const data = [
         image: Image6,
         title: "Contact Calendar Application (Fullstack)",
         desc: "Contact calendar application, using Angular Material in the Front-End and Spring Boot in the Back-End.",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://github.com/Patrikts/Aplica-ao-Agenda-Angular-SpringBoot',
+        github: 'https://github.com/Patrikts/Aplica-ao-Agenda-Angular-SpringBoot'
     },
     {
         id: 7,
         category: 'frontend',
         image: Image7,
-        title: "Project Title Seven (Frontend)",
+        title: "E-Commerce Sneakers React (Frontend)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://e-commerce-sneakers-react.netlify.app/',
+        github: 'https://github.com/Patrikts/e-commerce-sneakers-react'
     },
     {
         id: 8,
@@ -78,8 +78,8 @@ const data = [
         image: Image8,
         title: "Chess game made in Java (Backend)",
         desc: "Chess game made in Java in the Java and Object Orientation course by professor Nélio Alves",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        demo: 'https://github.com/Patrikts/jogo-de-xadrez-java',
+        github: 'https://github.com/Patrikts/jogo-de-xadrez-java'
     },
     {
         id: 9,
