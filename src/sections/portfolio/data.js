@@ -83,7 +83,7 @@ const data = [
     },
     {
         id: 9,
-        category: 'Backend',
+        category: 'backend',
         image: Image9,
         title: "orchestrated saga microservice (Backend)",
         desc: "Orchestrated saga microservice made in Spring Framework",
