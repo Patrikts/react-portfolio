@@ -76,7 +76,7 @@ const data = [
         id: 8,
         category: 'backend',
         image: Image8,
-        title: "Chess game made in Java (Backend)",
+        title: "Chess Game Made in Java (Backend)",
         desc: "Chess game made in Java in the Java and Object Orientation course by professor Nélio Alves",
         demo: 'https://github.com/Patrikts/jogo-de-xadrez-java',
         github: 'https://github.com/Patrikts/jogo-de-xadrez-java'
@@ -85,7 +85,7 @@ const data = [
         id: 9,
         category: 'backend',
         image: Image9,
-        title: "orchestrated saga microservice (Backend)",
+        title: "Orchestrated Saga Microservice (Backend)",
         desc: "Orchestrated saga microservice made in Spring Framework",
         demo: 'https://github.com/Patrikts/saga-orquestrado',
         github: 'https://github.com/Patrikts/saga-orquestrado'
