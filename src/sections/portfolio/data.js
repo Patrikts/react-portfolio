@@ -69,7 +69,7 @@ const data = [
         category: 'frontend',
         image: Image7,
         title: "E-Commerce Sneakers React (Frontend)",
-        desc: "E-Commerce Sneakers React",
+        desc: "E-Commerce Sneakers made in React Framework",
         demo: 'https://e-commerce-sneakers-react.netlify.app/',
         github: 'https://github.com/Patrikts/e-commerce-sneakers-react'
     },
