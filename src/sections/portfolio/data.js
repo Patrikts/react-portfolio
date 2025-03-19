@@ -7,6 +7,7 @@ import Image6 from '../../assets/project6.jpg'
 import Image7 from '../../assets/project7.png'
 import Image8 from '../../assets/project8.jpg'
 import Image9 from '../../assets/project9.png'
+import Image10 from '../../assets/project10.png'
 
 const data = [
     {
@@ -68,7 +69,7 @@ const data = [
         category: 'frontend',
         image: Image7,
         title: "E-Commerce Sneakers React (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
+        desc: "E-Commerce Sneakers React",
         demo: 'https://e-commerce-sneakers-react.netlify.app/',
         github: 'https://github.com/Patrikts/e-commerce-sneakers-react'
     },
@@ -89,6 +90,15 @@ const data = [
         desc: "Orchestrated saga microservice made in Spring Framework",
         demo: 'https://github.com/Patrikts/saga-orquestrado',
         github: 'https://github.com/Patrikts/saga-orquestrado'
+    },
+    {
+        id: 10,
+        category: 'frontend',
+        image: Image10,
+        title: "Todo List React (Frontend)",
+        desc: "Todo List made in React Framework",
+        demo: 'https://todo-list-react-vite-patrikts.netlify.app/',
+        github: 'https://github.com/Patrikts/todo-react'
     }
 ]
 
